@@ -39,11 +39,10 @@ const Details = () => {
         <div>
             <Container>
                 <Row className='product-row'>
-                    <Col md={6} className='col-12'>
+                    <Col sm={6} md={6} className='col-12 d-flex d-sm-block justify-content-center'>
                         <img src={product.imgUrl} alt='product img' className='prod-img ' />
-
                     </Col>
-                    <Col md={6} className='col-12'>
+                    <Col sm={6} md={6} className='col-12 d-flex d-sm-block justify-content-center'>
                         <div className='lh-sm product-details '>
                             <div className='fs-4 fw-normal text-gray-800 py-2'>{product.product_name}</div>
                             <div className='fw-lighter py-2'>{product.company}</div>

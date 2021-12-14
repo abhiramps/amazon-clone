@@ -32,7 +32,7 @@ const NavBar = () => {
                         <form className="d-flex me-auto">
                             {/* <SearchBar styles='searchbar'/> */}
                             <ComboBox/>
-                            <SearchIcon className='head-searchicon fs-3 rounded-end border-none' />
+                            <SearchIcon className='head-searchicon fs-2  rounded-end border-none' />
                             {/* <input className="searchbar form-control  py-0 my-0 rounded-0 rounded-start"  type="search" placeholder="Search" aria-label="Search" /> */}
                             {/* <button className="btn btn-outline-success" type="submit">Search</button> */}
                         </form>

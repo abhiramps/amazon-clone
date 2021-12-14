@@ -18,7 +18,7 @@ export default function ComboBox() {
                 display: 'inline-block',
                 '& input': {
                     borderRadius: "5px 0 0 5px",
-                    width: 300,
+                    width: 260,
                     height: 30,
                     bgcolor: 'background.paper',
                     color: (theme) =>

@@ -31,7 +31,7 @@ const Home = () => {
                         Data.map(items)
                     }
                 </Row>
-            </Container>dispatch
+            </Container>
         </div>
     )
 }
