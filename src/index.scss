@@ -1,0 +1,41 @@
+@import 'custom.scss';
+
+$theme-colors: (
+  "primary":       $primary ,
+  "secondary":     $secondary,
+  "success":       $success ,
+  "info":          $info ,
+  "danger":        $danger ,
+  "light":         $light, 
+  "dark":          $dark ,
+  "gray-100": $gray-100,
+  "gray-200": $gray-200,
+  "gray-300": $gray-300,
+  "gray-400": $gray-400 ,
+  "gray-500": $gray-500 ,
+  "gray-600": $gray-600 ,
+  "gray-700": $gray-700 ,
+  "gray-800": $gray-800 ,
+  "gray-900": $gray-900 ,
+
+
+  "warning":    rgb(212, 182, 9),
+  "amazonBlack":$amazonBlack,
+)!default;
+
+
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,19 @@
+.products{
+    height: 400px;
+    box-shadow: 7px 11px 17px -15px;
+}
+.prodImg{
+    width: 100px;
+    height: 150px;
+    object-fit: contain;
+}
+.product-caption{
+    width: 200px;
+    
+    .product-name{
+        text-overflow: clip;
+        height: 100px;
+        display:inline-block;
+        overflow:hidden;
+    }
+}

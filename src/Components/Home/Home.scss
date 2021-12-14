@@ -1,0 +1,17 @@
+.home{
+    position: relative;
+    // background-image: url("../../Images/amazon_banner.jpg");
+    .bannerimg{
+        // position: absolute;
+        width: 100%;
+        object-fit: cover;
+        height: 200px;
+    }
+    .row1{
+        // position: absolute;
+        // top:200px;
+        // clip: rect(0px,100px,200px,0px);
+        // transform: translateY(-20%);
+        // background-color: #7dbdce3b;
+    }
+}

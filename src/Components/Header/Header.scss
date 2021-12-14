@@ -1,0 +1,45 @@
+@import '../../custom.scss';
+
+.header{
+    // height: 60px;
+    // top: 0;
+    z-index: 1;
+    width: 100%;
+    // min-width: 1049px;
+}
+.header-logo{
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+}
+
+.header-search{
+    border-radius: 24px;
+}
+.header-searchinput{
+    height: 22px;
+    padding: 10px;
+    border: none;
+    width: 300px;
+} 
+
+.header-option-lineOne{
+    font-size: 13px;
+    // transform: translateY(5px);
+}
+.head-searchicon{
+    padding: 5px;
+    height: 22px;
+    background-color: #cd9042;
+}
+
+.searchbar{
+    width: 40vw;
+}
+@media screen and (max-width:830px) {
+    .searchbar{
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,14 @@
+.Checkout{
+    transform: translateY(10px);
+    text-overflow: clip;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    // right:0;
+    // left: 14rem;
+    top: 1rem;
+    .icon{
+        font-size: .7rem;
+    }
+}
